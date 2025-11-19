@@ -1,15 +1,14 @@
-body{
-    background-image: url("./gif.webp");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
-    background-color: black;
-    border-radius: 3px;
-
+body {
+  background-image: url("./gif.webp");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
 }
 
-h1{
-    height: 600px;
-    font-size: larger;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
