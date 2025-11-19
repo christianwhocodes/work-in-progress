@@ -18,10 +18,6 @@ This project displays a "Work in Progress" animated GIF on a black background. I
 
 This repository uses GitHub Actions to automatically deploy to GitHub Pages.
 
-### For Forks
-
-After forking this repository:
-
 1. Go to your repository's **Settings** → **Pages**
 2. Under **Source**, select **Deploy from a branch**
 3. Select the **gh-pages** branch
@@ -29,7 +25,7 @@ After forking this repository:
 
 The workflow will automatically deploy your site whenever you push to the `main` branch. Your site will be available at `https://your-username.github.io/repository-name/`
 
-**Note:** The workflow keeps your `main` branch unchanged - it only creates/updates the `gh-pages` branch with the deployed site.
+**Note:** The workflow keeps your `main` branch unchanged - it only creates/updates the `gh-pages` branch with the deployed site. This is particularly useful if you have a custom domain, as GitHub Pages may create a CNAME file in the deployment branch. By keeping changes isolated to the `gh-pages` branch, your `main` branch remains untouched and, if forked, can continue syncing from the source repo without conflicts.
 
 ## License
 
